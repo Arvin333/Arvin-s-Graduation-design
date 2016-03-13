@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div.bg
+      div.wrap
+          img(src='http://www.cqupt.edu.cn/cqupt/img/logo.png')
+      div.mote
+    div.header
+      div.wrap
+          span.nav-l 欢迎使用重庆邮电大学研究生三助管理系统
+              
+          span.nav-r  您好！
+              a(href="#")&nbsp;#{name} &nbsp; | &nbsp; 
+              a(href="#") 注册
+    block content
+    div.footer
+        div.wrap
+            div.links 友情链接&nbsp;:&nbsp;
+                select(name="links")
+                    option 重庆邮电大学
+                    option 教务在线
+                    option 红岩网校
+                    option 网址大全
+             span.mark 版权所有 | 重庆邮电大学 | 重庆市南岸区崇文路2号 | 400065 | 渝ICP：10005091-2
+
+

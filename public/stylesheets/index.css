@@ -1,0 +1,75 @@
+
+.banner-bg{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.banner{
+	margin-top: 10px;
+}
+.banner img{
+	width: 100%;
+}
+
+.body{
+	position: relative;
+	width: 100%;
+	margin-top: 30px;
+	font-size: 16px;
+	color: #555;
+}
+.body-l{
+	width: 600px;
+}
+.body-r{
+	position: absolute;
+	width: 600px;
+	top: 0;
+	right: -70px;
+}
+.body .title{
+	position: relative;
+	width: 500px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #555;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #00c896;
+}
+.body a{
+	color: #555;
+}
+.title .more{
+	color: #00c896;
+	position: absolute;
+	right: 0;
+    line-height: 30px;
+    font-size: 10px;
+    margin-left: 380px;
+}
+.personIntr{
+	cursor: pointer;
+	margin: 15px 8px;
+	display: inline-block;
+	width: 150px;
+	height: 200px;
+	text-align: center;
+}
+.photo{
+	overflow: hidden;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	z-index: 11;
+}
+.photo img{
+	width: 150px;
+	height: 150px;
+}
+.mark-name{
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+}
